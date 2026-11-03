@@ -1,0 +1,19 @@
+{
+    "environment": "Pendulum-v1",
+    "algorithm": "Tabular Q-learning",
+    "n_angle": 30,
+    "n_velocity": 30,
+    "n_actions": 9,
+    "num_episodes": 20000,
+    "alpha": 0.1,
+    "gamma": 0.99,
+    "epsilon_start": 1.0,
+    "epsilon_min": 0.05,
+    "epsilon_decay": 0.9996256035696476,
+    "seed": 42,
+    "save_interval": [
+        1000,
+        6000,
+        20000
+    ]
+}
